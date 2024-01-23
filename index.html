@@ -1,37 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Travel Site</title>
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    
-<!-- NAV AND FOOTER CSS ON GLOBAL.CSS -->
-<!-- HERO AND MAIN ON MAIN.CSS -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- NAV AND FOOTER CSS ON GLOBAL.CSS -->
+    <!-- HERO AND MAIN ON MAIN.CSS -->
 
-<!-- NAV SECTION -->
-
-<nav class="nav">
-    <div class="nav__title">
+    <!-- NAV SECTION -->
+    <nav class="nav">
+      <div class="nav__title">
         <a href="../index.html"><h1>Travel Site</h1></a>
-    </div>
-    <div class="nav__links">
+      </div>
+      <div class="nav__links">
         <ul>
-            <a href="../index.html"><li>Home</li></a>
-            <a href="../pages/hawaii.html"><li>Hawaii</li></a>
-            <a href="../pages/iceland.html"><li>Iceland</li></a>
-            <a href="../pages/greece.html"><li>Greece</li></a>
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../pages/hawaii.html"><li>Hawaii</li></a>
+          <a href="../pages/iceland.html"><li>Iceland</li></a>
+          <a href="../pages/greece.html"><li>Greece</li></a>
         </ul>
-    </div>
- </nav>
+      </div>
+    </nav>
 
-<!-- HERO SECTION -->
+    <!-- HERO SECTION -->
 
-<!-- MAIN SECTION  -->
+    <header class="hero">
+      <div class="hero__left">
+        <h2 class="hero__title">Travelling Comes With Endless Discoveries</h2>
+        <p class="hero__text">
+          Don't let your dreams just be dreams. Experience the world by booking
+          a vacation with us now.
+        </p>
+        <a href="./pages/form.html"><button>Get Started</button></a>
+      </div>
+      <div class="hero__right">
+        <img src="./assets/images/hero.png" alt="hero image" />
+      </div>
+    </header>
 
-<!-- FOOTER SECTION -->
-</body>
+    <!-- MAIN SECTION  -->
+
+    <main class="main">
+      <h3 class="main__title">Recommendations</h3>
+      <div class="main__card">
+        <div class="main__card--hawaii">Hawaii</div>
+        <div class="main__card--iceland">Iceland</div>
+        <div class="main__card--greece">Greece</div>
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+      <div class="footer__contact">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__contact--info"></div>
+        <p class="footer__text--top">EMAIL</p>
+        <p class="footer__text--bot">info@travelsite.com</p>
+      </div>
+
+      <div class="footer__hours">
+        <h3 class="foooter__title">Hours</h3>
+        <div class="footer__hours--info">
+          <p class="footer__text--top">Monday - Friday</p>
+          <p class="footer__text--bot">9:00 AM - 5:00 PM</p>
+          <p class="footer__text--top">Saturday</p>
+          <p class="footer__text--bot">10:00 AM - 4:00 PM</p>
+          <p class="footer__text--top">Sunday</p>
+          <p class="footer__text--bot">Closed</p>
+        </div>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Social</h3>
+        <div class="footer__social--icons">
+          <img src="./assets/icon-instagram.png" alt="instagram icon" />
+          <img src="./assets/icon-facebook.png" alt="facebook icon" />
+          <img src="./assets/icon-twitter.png" alt="x icon" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

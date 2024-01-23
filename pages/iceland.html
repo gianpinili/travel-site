@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iceland - Travel Site</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/destinations.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/destinations.css" />
+  </head>
+  <body>
     <!-- NAV - SHOULD BE SAME CODE AS INDEX.HTML AND HAWAII.HTML AND GREECE.HTML.
     USE CSS FILE GLOBAL.CSS FOR NAV STYLE -->
 
     <nav class="nav">
-        <div class="nav__title">
-            <a href="../index.html"><h1>Travel Site</h1></a>
-        </div>
-        <div class="nav__links">
-            <ul>
-                <a href="../index.html"><li>Home</li></a>
-                <a href="../pages/hawaii.html"><li>Hawaii</li></a>
-                <a href="../pages/iceland.html"><li>Iceland</li></a>
-                <a href="../pages/greece.html"><li>Greece</li></a>
-            </ul>
-        </div>
-     </nav>
+      <div class="nav__title">
+        <a href="../index.html"><h1>Travel Site</h1></a>
+      </div>
+      <div class="nav__links">
+        <ul>
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../pages/hawaii.html"><li>Hawaii</li></a>
+          <a href="../pages/iceland.html"><li>Iceland</li></a>
+          <a href="../pages/greece.html"><li>Greece</li></a>
+        </ul>
+      </div>
+    </nav>
 
     <!-- MAIN SECTION --- SHOULD BE SAME CODE AS {DESTINATIONPAGE}.HTML WITH DIFFERENT BACKGROUND IMG
     USE DIFFERENT CLASS NAME FOR "MAIN" TO HAVE DIFFERENT BACKGROUND IMAGES -->
 
-<!-- FOOTER - SHOULD BE SAME CODE AS INDEX.HTML AND HAWAII.HTML AND GREECE.HTML
-USE CSS FILE GLOBAL.CSS FOR NAV STYLE -->
+    <main class="main__iceland">
+      <h2 class="main__iceland--title">Iceland</h2>
+      <section class="main__iceland--activities">
+        <div class="main__iceland--day">
+          <p class="main__iceland--day--title">Friday</p>
+          <p class="main__iceland--info">Breakfast</p>
+          <p class="main__iceland--info">Lunch</p>
+          <p class="main__iceland--info">Dinner</p>
+          <p class="main__iceland--info">Hiking</p>
+        </div>
+        <div class="main__iceland--day">
+          <p class="main__iceland--day--title">Saturday</p>
+          <p class="main__iceland--info">Breakfast</p>
+          <p class="main__iceland--info">Lunch</p>
+          <p class="main__iceland--info">Dinner</p>
+          <p class="main__iceland--info">Hiking</p>
+        </div>
+        <div class="main__iceland--day">
+          <p class="main__iceland--day--title">Sunday</p>
+          <p class="main__iceland--info">Breakfast</p>
+          <p class="main__iceland--info">Lunch</p>
+          <p class="main__iceland--info">Dinner</p>
+          <p class="main__iceland--info">Hiking</p>
+        </div>
+      </section>
+    </main>
 
-</body>
+    <!-- FOOTER - SHOULD BE SAME CODE AS INDEX.HTML AND HAWAII.HTML AND GREECE.HTML
+USE CSS FILE GLOBAL.CSS FOR NAV STYLE -->
+    <footer class="footer">
+      <div class="footer__contact">
+        <h3 class="footer__title">Contact</h3>
+        <div class="footer__contact--info"></div>
+        <p class="footer__text--top">EMAIL</p>
+        <p class="footer__text--bot">info@travelsite.com</p>
+      </div>
+
+      <div class="footer__hours">
+        <h3 class="foooter__title">Hours</h3>
+        <div class="footer__hours--info">
+          <p class="footer__text--top">Monday - Friday</p>
+          <p class="footer__text--bot">9:00 AM - 5:00 PM</p>
+          <p class="footer__text--top">Saturday</p>
+          <p class="footer__text--bot">10:00 AM - 4:00 PM</p>
+          <p class="footer__text--top">Sunday</p>
+          <p class="footer__text--bot">Closed</p>
+        </div>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Social</h3>
+        <div class="footer__social--icons">
+          <img src="./assets/icon-instagram.png" alt="instagram icon" />
+          <img src="./assets/icon-facebook.png" alt="facebook icon" />
+          <img src="./assets/icon-twitter.png" alt="x icon" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
