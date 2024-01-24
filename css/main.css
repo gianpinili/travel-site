@@ -3,7 +3,9 @@
 .hero {
     background-color: #fefaf5;
     display: flex;
+    justify-content: center;
     padding: 60px 80px;
+    margin-top: 60px;
 }
 .hero__left {
     display: flex;
