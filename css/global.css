@@ -1,4 +1,42 @@
 * {
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border: 2px solid black; */
+}
+body {
+    margin: 0;
+}
+
+/* NAVBAR STUFF */
+.nav {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+    padding-bottom: 60px;
+}
+.nav__title a, .nav__links .nav__links--list a {
+    color: #335576;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav__links .nav__links--list .nav__current {
+    border-bottom: 3px solid #db7a4e;
+}
+.nav__title h1 {
+    margin-bottom: 0;
+    margin-left: 80px;
+}
+.nav__links--list {
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 0;
+}
+.nav__links--list li {
+    margin-left: 16px;
+    padding-bottom: 8px;
+}
+.nav__links .nav__links--list li:hover {
+    border-bottom: 3px solid #335576;
 }

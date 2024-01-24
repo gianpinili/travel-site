@@ -17,8 +17,8 @@
         <a href="../index.html"><h1>Travel Site</h1></a>
       </div>
       <div class="nav__links">
-        <ul>
-          <a href="../index.html"><li>Home</li></a>
+        <ul class="nav__links--list">
+          <a href="../index.html"><li class="nav__current">Home</li></a>
           <a href="../pages/hawaii.html"><li>Hawaii</li></a>
           <a href="../pages/iceland.html"><li>Iceland</li></a>
           <a href="../pages/greece.html"><li>Greece</li></a>
@@ -35,7 +35,9 @@
           Don't let your dreams just be dreams. Experience the world by booking
           a vacation with us now.
         </p>
-        <a href="./pages/form.html"><button>Get Started</button></a>
+        <a href="./pages/form.html"
+          ><button class="hero__button">Get Started</button></a
+        >
       </div>
       <div class="hero__right">
         <img src="./assets/images/hero.png" alt="hero image" />
@@ -46,10 +48,28 @@
 
     <main class="main">
       <h3 class="main__title">Recommendations</h3>
+
+      <a href="./pages/hawaii.html">
       <div class="main__card">
-        <div class="main__card--hawaii">Hawaii</div>
-        <div class="main__card--iceland">Iceland</div>
-        <div class="main__card--greece">Greece</div>
+        <div class="main__card--hawaii">
+          <div class="main__card--space"></div>
+          <p>Hawaii</p>
+        </div>
+      </a>
+
+        <a href="./pages/iceland.html">
+        <div class="main__card--iceland">
+          <div class="main__card--space"></div>
+          <p>Iceland</p>
+        </div>
+      </a>
+
+      <a href="./pages/greece.html">
+        <div class="main__card--greece">
+          <div class="main__card--space"></div>
+          <p>Greece</p>
+        </div>
+      </a>
       </div>
     </main>
 

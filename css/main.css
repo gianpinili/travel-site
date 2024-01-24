@@ -1,0 +1,135 @@
+/* HERO STUFF */
+
+.hero {
+    background-color: #fefaf5;
+    display: flex;
+    padding: 60px 80px;
+}
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__title {
+    color:#335576;
+    font-size: 36px;
+    width: 70%;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.hero__right img {
+    width: 400px;
+    padding-left: 40px;
+}
+.hero__text {
+    color: #335576;
+    width: 90%;
+    margin-top: 5px;
+}
+.hero__left a {
+    width: 27%;
+}
+.hero__button {
+    background-color: #db7a4e;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 20px;
+    border: 3px solid #db7a4e;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.hero__button:hover {
+    cursor: pointer;
+    background-color: white;
+    color:#db7a4e;
+}
+
+/* MAIN STUFF */
+.main__title {
+    color: #335576;
+    padding-left: 80px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.main__card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.main__card--hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: contain;
+    width: 251px;
+    height: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0, 20%);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
+    margin: 0 20px;
+}
+.main__card--greece {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: contain;
+    width: 251px;
+    height: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0, 20%);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
+    margin: 0 20px;
+}
+
+.main__card--iceland {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: contain;
+    width: 251px;
+    height: 375px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0, 20%);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
+    margin: 0 20px;
+}
+.main__card--space {
+    height: 80%;
+}
+.main__card p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    margin-right: 1.3rem;
+}
+.main a {
+    text-decoration: none;
+}
+.main__card--iceland:hover {
+    opacity: .5;
+    transition: .3s;
+    width: 325px;
+    height: 486px;
+}
+.main__card--hawaii:hover {
+    opacity: .5;
+    transition: .3s;
+    transition-duration: 0.3s;
+    width: 325px;
+    height: 486px;
+}
+.main__card--greece:hover {
+    opacity: .5;
+    transition: .3s;
+    width: 325px;
+    height: 486px;
+}
