@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* NAVBAR STUFF */
+/* GLOBAL NAVBAR STYLING */
 .nav {
     background-color: #FFF;
     display: flex;
@@ -18,13 +18,13 @@ body {
     top: 0;
     width: 100%;
 }
-.nav__title a, .nav__links .nav__links--list a {
+.nav__title a, .nav__links .nav__list a {
     color: #335576;
     text-decoration: none;
     list-style: none;
 }
 
-.nav__links .nav__links--list .nav__current {
+.nav__links .nav__list .nav__current {
     border-bottom: 3px solid #db7a4e;
 }
 .nav__title h1 {
@@ -32,20 +32,20 @@ body {
     margin-left: 80px;
     font-size: 18px;
 }
-.nav__links--list {
+.nav__list {
     display: flex;
     margin-right: 80px;
     margin-bottom: 0;
 }
-.nav__links--list li {
+.nav__list li {
     margin-left: 16px;
     padding-bottom: 8px;
 }
-.nav__links .nav__links--list li:hover {
+.nav__links .nav__list li:hover {
     border-bottom: 3px solid #335576;
 }
 
-/* FOOTER SECTION */
+/* GLOBAL FOOTER STYLING */
 .footer {
     background-color: #fefaf5;
     display: flex;

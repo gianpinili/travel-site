@@ -1,3 +1,4 @@
+/* BACKGROUND IMAGE FOR HAWAII PAGE */
 .main__hawaii {
     background-image: url(../assets/images/hawaii.jpg);
     background-size: cover;
@@ -7,6 +8,7 @@
     width: 100%;
     margin-top: 60px;
 }  
+/* BACKGROUND IMAGE FOR ICELAND PAGE */
 .main__iceland {
     background-image: url(../assets/images/iceland.jpg);
     background-size: cover;
@@ -16,6 +18,9 @@
     width: 100%;
     margin-top: 60px;
 }  
+/* BACKGROUND IMAGE FOR GREECE PAGE */
+
+/* GLOBAL MAIN STYLING FOR DESTINATION PAGES */
 .main__greece {
     background-image: url(../assets/images/greece.jpg);
     background-size: cover;

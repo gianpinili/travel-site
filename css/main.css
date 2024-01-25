@@ -1,4 +1,4 @@
-/* HERO STUFF */
+/* HERO SECTION STYLING */
 
 .hero {
     background-color: #fefaf5;
@@ -48,7 +48,7 @@
     border: 3px solid #335576;
 }
 
-/* MAIN STUFF */
+/* MAIN SECTION STYLING */
 .main__title {
     color: #335576;
     padding-left: 80px;
@@ -101,7 +101,7 @@
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
     margin: 0 20px;
 }
-.main__card--space {
+.main__space {
     height: 80%;
 }
 .main__card p {
