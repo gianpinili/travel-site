@@ -4,9 +4,9 @@
     background-size: cover;
     background-position: 60% 53%;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 47.5rem;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }  
 /* BACKGROUND IMAGE FOR ICELAND PAGE */
 .main__iceland {
@@ -14,28 +14,27 @@
     background-size: cover;
     background-position: 60% 53%;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 47.5rem;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }  
 /* BACKGROUND IMAGE FOR GREECE PAGE */
-
-/* GLOBAL MAIN STYLING FOR DESTINATION PAGES */
 .main__greece {
     background-image: url(../assets/images/greece.jpg);
     background-size: cover;
     background-position: 60% 53%;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 47.5rem;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }  
+/* GLOBAL MAIN STYLING FOR DESTINATION PAGES */
 .main__title {
-    padding-left: 80px;
+    padding-left: 5rem;
     font-size: 74px;
     color: white;
     margin-top: 0;
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 .main__activities {
     display: flex;
@@ -43,33 +42,32 @@
 }
 .main__day--title {
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.125rem;
     border-bottom: 2px solid black;
     text-align: center;
-    margin-top: 20px;
-    /* padding-bottom: 10px; */
+    margin-top: 1.25rem;
 }
 .main__info {
     text-align: center;
     background-color: #fefaf5;
-    padding: 15px 0;
+    padding: 1rem 0;
     margin: 0;
-    margin-top: 12px;
+    margin-top: 0.75rem;
 }
 .main__day {
-    width: 250px;
-    height: 360px;
+    width: 15.625rem;
+    height: 22.5rem;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 50px;
+    padding-left: .625rem;
+    padding-right: .625rem;
+    padding-bottom: 3.125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: .5rem;
+    margin-bottom: .625rem;
 }
 .main__day--center {
-    margin-left: 40px; 
-    margin-right: 40px;
+    margin-left: 2.5rem; 
+    margin-right: 2.5rem;
 }

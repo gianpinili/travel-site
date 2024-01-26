@@ -4,8 +4,8 @@
     background-color: #fefaf5;
     display: flex;
     justify-content: center;
-    padding: 60px 80px;
-    margin-top: 60px;
+    padding: 3.75rem 5rem;
+    margin-top: 3.75rem;
 }
 .hero__left {
     display: flex;
@@ -14,15 +14,15 @@
 }
 .hero__title {
     color:#335576;
-    font-size: 36px;
+    font-size: 2.25rem;
     width: 70%;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     margin-bottom: 0;
     margin-top: 0;
 }
 .hero__right img {
-    width: 400px;
-    padding-left: 40px;
+    width: 25rem;
+    padding-left: 2.5rem;
 }
 .hero__text {
     color: #335576;
@@ -35,11 +35,12 @@
 .hero__button {
     background-color: #db7a4e;
     color: #fff;
-    padding: 8px 40px;
-    border-radius: 20px;
+    padding: 8px 2.5rem;
+    border-radius: 1.25rem;
     border: 3px solid #db7a4e;
     font-size: 1rem;
-    margin-top: 15px;
+    margin-top: 1rem;
+    transition: .7s;
 }
 .hero__button:hover {
     cursor: pointer;
@@ -51,21 +52,21 @@
 /* MAIN SECTION STYLING */
 .main__title {
     color: #335576;
-    padding-left: 80px;
-    padding-top: 20px;
-    font-size: 24px;
+    padding-left: 5rem;
+    padding-top: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .main__card {
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
+    padding-bottom: 3.75rem;
 }
 .main__card--hawaii {
     background-image: url(../assets/images/hawaii.jpg);
     background-size: contain;
-    width: 251px;
-    height: 375px;
+    width: 15.625rem;
+    height: 23.375rem;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -73,12 +74,13 @@
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
     margin: 0 20px;
+    transition: .7s;
 }
 .main__card--greece {
     background-image: url(../assets/images/greece.jpg);
     background-size: contain;
-    width: 251px;
-    height: 375px;
+    width: 15.625rem;
+    height: 23.375rem;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -86,20 +88,22 @@
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
     margin: 0 20px;
+    transition: .7s;
 }
 
 .main__card--iceland {
     background-image: url(../assets/images/iceland.jpg);
     background-size: contain;
-    width: 251px;
-    height: 375px;
+    width: 15.625rem;
+    height: 23.375rem;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(0, 0, 0, 20%);
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
-    margin: 0 20px;
+    margin: 0 1.25rem;
+    transition: .7s;
 }
 .main__space {
     height: 80%;
@@ -117,22 +121,7 @@
 .main a {
     text-decoration: none;
 }
-.main__card--iceland:hover {
+.main__card--hover:hover {
     opacity: .5;
-    transition: .3s;
-    width: 325px;
-    height: 486px;
-}
-.main__card--hawaii:hover {
-    opacity: .5;
-    transition: .3s;
-    transition-duration: 0.3s;
-    width: 325px;
-    height: 486px;
-}
-.main__card--greece:hover {
-    opacity: .5;
-    transition: .3s;
-    width: 325px;
-    height: 486px;
+    transform: scale(1.15);
 }

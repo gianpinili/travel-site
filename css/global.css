@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* max-width: 1280px; */
 }
 body {
     margin: 0;
@@ -13,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 3vh;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,17 +28,17 @@ body {
 }
 .nav__title h1 {
     margin-bottom: 0;
-    margin-left: 80px;
-    font-size: 18px;
+    margin-left: 5rem;
+    font-size: 1.125rem;
 }
 .nav__list {
     display: flex;
-    margin-right: 80px;
+    margin-right: 5rem;
     margin-bottom: 0;
 }
 .nav__list li {
-    margin-left: 16px;
-    padding-bottom: 8px;
+    margin-left: 1rem;
+    padding-bottom: 0.5rem;
 }
 .nav__links .nav__list li:hover {
     border-bottom: 3px solid #335576;
@@ -50,41 +49,98 @@ body {
     background-color: #fefaf5;
     display: flex;
     justify-content: center;
-    padding: 20px 160px;
+    padding: 1.25rem 10rem;
 }
 .footer__hours {
     display: flex;
 }
 .footer__title {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .footer__title, .footer__text {
     color: #335576
 }
 .footer__text {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 .footer__subtitle {
     color: #db7a4e;
-    font-size: 10px;
+    font-size: 0.625rem;
     margin-top: 0;
 }
 .footer__social--icons img {
     transform: scale(0.3);
 }
 .footer__contact {
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 .footer__times {
-    padding-left: 120px;
+    padding-left: 7.5rem;
 }
 .footer__hours--info {
-    padding-right: 40px;
+    padding-right: 2.5rem;
 }
 .footer__social {
-    padding-left: 40px;
+    padding-left: 2.5rem;
 }
 .footer__title--social {
-    padding-left: 20px;
-    margin-bottom: 10px;
+    padding-left: 1.25rem;
+    margin-bottom: 0.625rem;
+}
+
+/* EXTRA PAGE (FORM.HTML) - CLICKING GET STARTED BUTTON ON MAIN PAGE */
+
+.title {
+    padding-left: 80px;
+    color: #fff;
+    padding-top: 2.5rem;
+}
+.form {
+    margin-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    background: linear-gradient(90deg, rgba(51,85,118,1) 0%, rgba(219,122,78,1) 100%);
+
+}
+.form__section {
+    margin: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 2.5rem;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.form__table label {
+    line-height: 2.5rem;
+    color: #335576;
+}
+.form__button {
+    background-color: #db7a4e;
+    color: #fff;
+    padding: 8px 2.5rem;
+    border-radius: 1.25rem;
+    border: 3px solid #db7a4e;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: .7s;
+}
+.form__button:hover {
+    cursor: pointer;
+    background-color: #335576;
+    color:white;
+    border: 3px solid #335576;
+    cursor: pointer;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
+
 }

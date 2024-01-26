@@ -15,7 +15,7 @@
       </div>
       <div class="nav__links">
         <ul class="nav__list">
-          <a href="../index.html"><li class="nav__current">Home</li></a>
+          <a href="../index.html"><li>Home</li></a>
           <a href="../pages/hawaii.html"><li>Hawaii</li></a>
           <a href="../pages/iceland.html"><li>Iceland</li></a>
           <a href="../pages/greece.html"><li>Greece</li></a>
@@ -24,6 +24,44 @@
     </nav>
 
     <!-- form section -->
+    <main class="form">
+      <h1 class="title">Book Your Travels Today</h1>
+      <section class="form__section">
+        <form class="form__table" action="">
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+          />
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+          />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <label for="number">Phone Number</label>
+          <input
+            type="text"
+            id="number"
+            name="number"
+            placeholder="Phone Number"
+          />
+          <label for="destination">Please chooose your destination</label>
+          <select name="destination" id="destination" placeholder="Destination">
+            <option value="">Please choose</option>
+            <option value="hawaii">Hawaii</option>
+            <option value="iceland">Iceland</option>
+            <option value="greece">Greece</option>
+          </select>
+          <button class="form__button" type="submit">Let's Go!</button>
+        </form>
+      </section>
+    </main>
 
     <!-- footer section -->
 
