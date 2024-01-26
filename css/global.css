@@ -95,10 +95,17 @@ body {
     color: #fff;
     padding-top: 2.5rem;
 }
+.title__text {
+    color: #fff;
+    padding: 0 225px;
+    letter-spacing: 2px;
+    line-height: 2em;
+    text-align: center;
+}
 .form {
     margin-top: 3.5rem;
-    padding-bottom: 3.5rem;
-    background: linear-gradient(90deg, rgba(51,85,118,1) 0%, rgba(219,122,78,1) 100%);
+    padding-bottom: 1rem;
+    background: linear-gradient(90deg, rgba(135,186,235,1) 0%, rgba(236,163,130,1) 100%);
 
 }
 .form__section {
@@ -113,7 +120,7 @@ body {
     align-items: center;
     width: 40%;
     padding: 2.5rem;
-    background-color: white;
+    background-color: rgb(253, 253, 253, 0.25);
     border-radius: 5px;
 
 }
@@ -142,5 +149,37 @@ input {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
-
+}
+select {
+    padding: 10px;
+    border-radius: 5px;
+}
+.reviews {
+    padding: 0 80px;
+    padding-bottom: 50px;
+}
+.reviews__title {
+    padding-left: 80px;
+    color: #335576;
+    padding-top: 1rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.reviews__info {
+    display: flex;
+}
+.reviews__photo {
+    width: 80px;
+    height: 110px;
+    border-radius: 12%;
+}
+.checked {
+    color: #db7a4e;
+}
+.reviews__text {
+    width: 500px;
+    padding: 0 80px;
+}
+.reviews__name {
+    font-weight: bold;
 }
