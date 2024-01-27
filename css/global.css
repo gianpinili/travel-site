@@ -44,6 +44,14 @@ body {
     border-bottom: 3px solid #335576;
 }
 
+/* RESPONSIVE NAVBAR */
+@media (max-width: 400px){
+    .nav__list {
+        display: none;
+    }
+}
+
+
 /* GLOBAL FOOTER STYLING */
 .footer {
     background-color: #fefaf5;
@@ -88,16 +96,50 @@ body {
     margin-bottom: 0.625rem;
 }
 
+/* RESPONSIVE FOOTER */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__title {
+        text-align: center;
+    }
+    .footer__times {
+        padding-left: 0;
+        flex-direction: column;
+    }
+    .footer__contact {
+        margin: 0;
+    }
+    .footer__hours--info {
+        padding: 1rem;
+    }
+    .footer__social {
+        padding: 0;
+    }
+    .footer__title--social {
+        padding: 0;
+       
+    }
+}
+@media (max-width: 400px){
+    .footer {
+        padding: 1.25rem 1.25rem;
+    }
+}
+
 /* EXTRA PAGE (FORM.HTML) - CLICKING GET STARTED BUTTON ON MAIN PAGE */
 
 .title {
-    padding-left: 80px;
+    padding-left: 5rem;
     color: #fff;
     padding-top: 2.5rem;
 }
 .title__text {
     color: #fff;
-    padding: 0 225px;
+    padding: 0 14rem;
     letter-spacing: 2px;
     line-height: 2em;
     text-align: center;
@@ -131,7 +173,7 @@ body {
 .form__button {
     background-color: #db7a4e;
     color: #fff;
-    padding: 8px 2.5rem;
+    padding: 0.5rem 2.5rem;
     border-radius: 1.25rem;
     border: 3px solid #db7a4e;
     font-size: 1rem;
@@ -146,20 +188,20 @@ body {
     cursor: pointer;
 }
 input {
-    padding: 10px;
+    padding: .625rem;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgb(0, 0, 0, 20%);
 }
 select {
-    padding: 10px;
+    padding: .625rem;
     border-radius: 5px;
 }
 .reviews {
-    padding: 0 80px;
-    padding-bottom: 50px;
+    padding: 0 5rem;
+    padding-bottom: 3.125rem;
 }
 .reviews__title {
-    padding-left: 80px;
+    padding-left: 5rem;
     color: #335576;
     padding-top: 1rem;
     font-size: 2rem;
@@ -169,17 +211,35 @@ select {
     display: flex;
 }
 .reviews__photo {
-    width: 80px;
-    height: 110px;
+    width: 5rem;
+    height: 6.875rem;
     border-radius: 12%;
 }
 .checked {
     color: #db7a4e;
 }
 .reviews__text {
-    width: 500px;
-    padding: 0 80px;
+    width: 31.25rem;
+    padding: 0 5rem;
 }
 .reviews__name {
     font-weight: bold;
+}
+
+/* EXTRA PAGE - REVIEWS SECTION RESPONSIVE */
+@media (max-width: 768px) {
+    .reviews__info {
+        flex-direction: column;
+    }
+    .reviews__text {
+        width: 100%;
+    }
+    .title {
+        text-align: center;
+        padding-left: 0;
+    }
+    label, .reviews__title {
+        text-align: center;
+        padding-left: 0;
+    }
 }
